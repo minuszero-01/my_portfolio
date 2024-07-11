@@ -25,13 +25,14 @@ import {
   SiMongodb,
   SiPostgresql,
   SiExpress,
+  SiNextdotjs,
 } from "react-icons/si";
 
 //about
 
 const about = {
   title: "About me",
-  description: "I am a 4th year CSE from MIT ADT University.",
+  description: "I am a 4th year CSE from MIT ADT University",
   info: [
     {
       fieldName: "Name",
@@ -64,7 +65,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "I have done internship as a web developer in a startup. Teachnologies i work on were ReactJS, Golang, TailwindCss, Postgres SQL",
+    "I completed an internship as a web developer at a startup, working with ReactJS, Golang, TailwindCSS, and PostgreSQL.",
   items: [
     {
       company: "Innovation Hacks AI",
@@ -103,8 +104,7 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description:
-    "Technologies I work with. Also Passionate about learning new things.",
+  description: "This are the technologies I have worked upon.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -127,17 +127,18 @@ const skills = {
       name: "React JS",
     },
     {
-      icon: <FaDocker />,
-      name: "Docker",
-    },
-    {
-      icon: <FaGit />,
-      name: "Git and Github",
+      icon: <SiNextdotjs />,
+      name: "Next JS",
     },
     {
       icon: <SiExpress />,
       name: "Express JS",
     },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind CSS",
+    },
+
     {
       icon: <SiMongodb />,
       name: "MongoDB",
@@ -146,9 +147,14 @@ const skills = {
       icon: <SiPostgresql />,
       name: "Postgres",
     },
+
     {
-      icon: <SiTailwindcss />,
-      name: "Tailwind CSS",
+      icon: <FaDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <FaGit />,
+      name: "Git and Github",
     },
   ],
 };

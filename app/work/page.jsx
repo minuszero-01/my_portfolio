@@ -20,16 +20,17 @@ const projects = [
     num: "01",
     category: "Full Stack Project",
     title: "Project 1",
-    description: "Paytm Clone based on MERN Stack",
+    description:
+      "A Paytm Wallet where you can transfer your money to the wallet. P2P Tranfer feature to send money to friends.",
     stack: [
       {
-        name: "ReactJS",
+        name: "NextJS",
       },
       {
         name: "ExpressJS",
       },
       {
-        name: "MongoDB",
+        name: "PostgreSQL",
       },
       {
         name: "TailwindCSS",
@@ -37,7 +38,7 @@ const projects = [
     ],
     image: "/assets/work/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/minuszero-01/Paytm2",
   },
   {
     num: "02",
@@ -58,7 +59,7 @@ const projects = [
     ],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/minuszero-01/WebRTC-P2P-",
   },
 ];
 
@@ -124,7 +125,7 @@ const Work = () => {
                         Live
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Live Project</p>
+                        <p>Live Project (Working on Deployment)</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
