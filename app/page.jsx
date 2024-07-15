@@ -17,7 +17,8 @@ const Home = () => {
               <span className="text-accent">Harsh Hande</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 ">
-              I was just bored. So, I started making a portfolio
+              Currently an ace in Full Stack Development but also a jack of all
+              trades.
             </p>
             {/* Buttons an Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

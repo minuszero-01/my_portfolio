@@ -32,7 +32,8 @@ import {
 
 const about = {
   title: "About me",
-  description: "I am a 4th year CSE from MIT ADT University",
+  description:
+    "I am 4th year CS student from MIT ADT University. Currently in the learning phase of understanding how world works using technology and applying them in real-life.",
   info: [
     {
       fieldName: "Name",
@@ -83,13 +84,13 @@ const education = {
   items: [
     {
       Institution: "D.A.V. International School",
-      degree: "HSC (10th)",
+      degree: "SSC (10th)",
       duration: "March 2018",
       grade: "87.8 %",
     },
     {
       Institution: "D.A.V. International School",
-      degree: "SSC (12th)",
+      degree: "HSC (12th)",
       duration: "March 2020",
       grade: "75 %",
     },
